@@ -1,0 +1,15 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+server:
+  port: 5000
+
+kubernetes:
+  deploy:
+    ip: 172.20.41.58
+    token: eyJhbGciOiJSUzI1NiIsImtpZCI6ImliVExjS1RFV0pfNENCaUJDYnJqM3c1TFpsUWVTZFBEUE50ekpTVlozRFkifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJrdWJvYXJkLXVzZXItdG9rZW4tcnY5d24iLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoia3Vib2FyZC11c2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiMDI2ODEwMjgtOTlkMC00ZGEyLThjYjctNzczOGM1ZDI0OTcxIiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50Omt1YmUtc3lzdGVtOmt1Ym9hcmQtdXNlciJ9.g4RdCP7IaxfYVuXDTkwne3fBS2BdOPd2CaFLWXLRs_s-MVVmKF_uE-Bnu08AjAcKtGpXJE05-Y463Fe3mV5I7C-dcw-HKyLjN1fFpIDEQ_9sP_3UiQ7GugtIrBDLPwji57eN8ndvc-BAjjRs0CkrqnXjafmzT2nK5XPBebxAwRw1ukYeKFAOukYr4MUGw6RF3LuOjxDxQxaeKeRWWnVDhoTsQ57ukRGnNoqeohTMZeOVO3BEiUODvyNF3GRk0Pz8cnLhxuTo2dVjfl1Uzqz5HEVg0paHQwqZepFQvArt0ISC3bxNxXzk_0eiyBw4FRRExe8Q2w0NcS7uR_3IrbFdIg
+    harbor-ip: 172.20.41.47
+    namespace: itt-demo
